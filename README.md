@@ -10,7 +10,7 @@ step 4 install yarn by running npm install -g yarn command in cmd
 
 step 5 check yarn version by running yarn --version command in cmd (note if you are windows system restart the system so yarn can get successfully configerd 
 
-step 6 install live server. create project folder and navigate to the folder in cmd and run yarn global add live-server command from project folder or run cmd command from user root in cmd by running npm install -g live-server
+step 6 install live server. create project folder and navigate to the folder in cmd and run yarn global add live-server command from project folder or run cmd command from user root in cmd by running npm install -g live-server (to check the live-server version run live-server -v command)
 
 step 7 open cmd navigate to project folder and run command: live-server public (public is the main folder in the project folder that has index.html file.  
 
