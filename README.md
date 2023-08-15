@@ -10,7 +10,7 @@ step 4 install yarn by running npm install -g yarn command in cmd
 
 step 5 check yarn version by running yarn --version command in cmd (note if you are windows system restart the system so yarn can get successfully configerd 
 
-step 6 install live server. create project folder and navigate to the folder in cmd and run yarn global add live-server command from project folder or run cmd command from user root in cmd by running npm install -g live-server (to check the live-server version run live-server -v command)
+step 6 install live server. create project folder and navigate to the folder in cmd and run yarn global add live-server command from project folder or run cmd command from user root in cmd by running npm install -g live-server (Check the live-server version run live-server -v command)
 
 step 7 open cmd navigate to project folder and run command: live-server public (public is the main folder in the project folder that has index.html file.  
 
@@ -32,4 +32,8 @@ step 11 babel src/app.js --out-file=public/scripts/app.js --presets=env,react
 Step 12 - open cmd navigate to project folder and run command: live-server public (public is the main folder in the project folder that has index.html file.  
 
 incase you delete node_modules folder from project you can reinstall it by running yarn install command from project root directory in the cmd it will bring th node_model back and you should be able to run commands in step 11
+
+VS Code Extension 
+1.  Babel ES6/ES7
+2.  Path Intellisense
 
